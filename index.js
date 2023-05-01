@@ -31,7 +31,11 @@ function myFun(libro){
   console.log('*****')
 }
 
-result.innerHTML=new_archivio;
+if (count=1){
+  result.innerHTML=new_archivio;
+}
+
+
 counter.innerHTML=count;
 
 
